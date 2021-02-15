@@ -36,6 +36,7 @@ public class UIManager : MonoBehaviour
 
 
 	private GameObject panelLogin;
+	public GameObject PanelInput;
 	private GameObject panelStart;
 	private GameObject cameraTitle;
 
@@ -59,6 +60,8 @@ public class UIManager : MonoBehaviour
 	public List<GameObject> ScorePanels;
 
 	public TextMeshProUGUI displayLogin;
+
+	public GameObject PanelSwitch;
 
 	//private int 
 
@@ -218,11 +221,17 @@ public class UIManager : MonoBehaviour
 		
 	}
 
-	public void enableTransition()
+	public void EnableTransition()
     {
 		panelLogin.SetActive(false);
 		panelStart.SetActive(true);
 		cameraTitle.GetComponent<Fading>().enabled = true;
+	}
+
+	public void EnablePanelInput()
+    {
+		PanelInput.SetActive(true);
+		panelLogin.SetActive(false);
 	}
 
 	public void toggleResumeButton()

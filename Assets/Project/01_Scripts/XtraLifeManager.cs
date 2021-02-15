@@ -58,6 +58,15 @@ public class XtraLifeManager : MonoBehaviour
         
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            PlayerPrefs.DeleteAll();
+            Debug.Log("Keys Cleared");
+        }
+    }
+
 
     #region AUTHENTIFICATION
 
@@ -71,7 +80,7 @@ public class XtraLifeManager : MonoBehaviour
                 networkSecret: password)
             .Done(gamer => {
 
-                uiManager.enableTransition();
+                
                 DidLogin(gamer);
 
                 currentGamer = gamer;
@@ -86,9 +95,11 @@ public class XtraLifeManager : MonoBehaviour
                     SetIntroSeenData(false);
                     SetHighScore(0, true);
                     SetHighTime(float.MaxValue, true);
+                    uiManager.EnablePanelInput(); // show input panel only for 1st time playing
                 }
                 else
                 {
+                    uiManager.EnableTransition();
                     GetScores();
                 }
 
@@ -137,7 +148,7 @@ public class XtraLifeManager : MonoBehaviour
                 gamerSecret: PlayerPrefs.GetString(previousPasswordKey))
             .Done(gamer => {
 
-                uiManager.enableTransition();
+                uiManager.EnableTransition();
                 DidLogin(gamer);
                 currentGamer = gamer;
 

@@ -698,6 +698,8 @@ public class CustomCharacterController : MonoBehaviour
 		manager.GetComponent<GameManager>().enabled = false;
 		playerMesh.transform.GetChild(0).GetComponent<Animator>().enabled = false;
 		gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
+		Time.timeScale = 0f;
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 	
@@ -742,40 +744,11 @@ public class CustomCharacterController : MonoBehaviour
 			sc.timeArena = sc.surviveTimer;
 			sc.ActiveInGamePanel(false);
 			sd.windFadingInSolo = true;
-			
-			if (manager.GetComponent<PlayerSave>().activePlayerKey != null)
-			{
-				if (manager.GetComponent<PlayerSave>().bestTime < sc.surviveTimer)
-				{
-					manager.GetComponent<PlayerSave>().bestTime = sc.surviveTimer;
-					
-					PlayerPrefs.SetFloat(manager.GetComponent<PlayerSave>().activeBestTimeKey, sc.surviveTimer);
-					sc.txt_bestTime.text = sc.FormatTime(sc.surviveTimer);
-				}
-				else
-				{
-					manager.GetComponent<PlayerSave>().bestTime =
-						PlayerPrefs.GetFloat(manager.GetComponent<PlayerSave>().activeBestTimeKey);
-					sc.txt_bestTime.text = sc.FormatTime(PlayerPrefs.GetFloat(manager.GetComponent<PlayerSave>().activeBestTimeKey));
-				}
 
 
-				if (manager.GetComponent<PlayerSave>().highScore < sc.score)
-				{
-					manager.GetComponent<PlayerSave>().highScore = sc.score;
-					
-					PlayerPrefs.SetFloat(manager.GetComponent<PlayerSave>().activeHighScoreKey, sc.score);
-					sc.txt_highscore.text = sc.score.ToString();
-				}
-				else
-				{
-					manager.GetComponent<PlayerSave>().highScore =
-						PlayerPrefs.GetFloat(manager.GetComponent<PlayerSave>().activeHighScoreKey);
-					sc.txt_highscore.text = PlayerPrefs.GetFloat(manager.GetComponent<PlayerSave>().activeHighScoreKey).ToString();
-				}
-			}
-			//sc.surviveTimer = 0f;
-			
+
+			ui_manager.PanelSwitch.SetActive(false);
+
 
 			dying = true;
 			sd.StopSound(sd.footstepsFmod);
