@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{ee3624bd-49fd-405b-80d6-7e02cd093204}">
+        <property name="name">
+            <value>Changement de Stance</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9981632e-307a-474f-9b84-a20da551776b}</destination>
+        </relationship>
+    </object>
+</objects>

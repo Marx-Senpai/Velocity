@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{6b9baaa8-b267-4f80-b273-fb819f261826}">
+        <property name="assetPath">
+            <value>craquements_pertes_pv01.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.093265306122448974</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cf2538eb-09d5-4e38-945b-424f8e0c1875}</destination>
+        </relationship>
+    </object>
+</objects>

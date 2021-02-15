@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{089c8f9e-5360-4b1d-be45-e446674c41f1}">
+        <property name="name">
+            <value>Pas</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{91e5109f-f53f-4aeb-b1ea-6799d3fd099c}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{91e5109f-f53f-4aeb-b1ea-6799d3fd099c}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>1.8999998569488525</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{79e065e1-5064-4dc9-8492-90b4ea057bc9}">
+        <property name="name">
+            <value>sortie_arène</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9ff940b2-bf93-4938-ab07-e4f15a233f7f}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9ff940b2-bf93-4938-ab07-e4f15a233f7f}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

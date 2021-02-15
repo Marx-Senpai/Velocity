@@ -1,0 +1,667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameManager_roro_24_02_19
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: e134b2b4779d9f544b1f3cb9417f14c7,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputDroitHorizontal
+    value: HorizontalDroit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputDroitVertical
+    value: VerticalDroit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputGaucheHorizontal
+    value: HorizontalGauche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputGaucheVertical
+    value: VerticalGauche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputPadHorizontal
+    value: HorizontalPad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputPadVertical
+    value: VerticalPad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputAccel
+    value: accel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputDecel
+    value: decel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputAccelDriftDroit
+    value: DriftDroit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputAccelDriftGauche
+    value: DriftGauche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputAbility
+    value: Ability
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputPause
+    value: Pause
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSuiveurBase
+    value: FormationBase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSuiveurAiguille
+    value: FormationAiguille
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSuiveurRateau
+    value: FormationRateau
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputCristallisation
+    value: Cristallisation
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputChangementCam
+    value: CameraChange
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSuiveurUp
+    value: SuiveurUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxSpeed
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: minSpeed
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gravityStrength
+    value: -7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxFallSpeed
+    value: -40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: turnSpeed
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: derapTurnSpeed
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scaleUpAmount
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: speedUpAmount
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: detectionRadiusLenght
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: detectionRadiusWidth
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: camDistanceZ
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: camDistanceY
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: camAdjustSpeed
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: followSpeedMultiplier
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathTimerAdd
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathTimerLimit
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cristalMinSpeed
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cristalMinTimerWithoutHit
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slerpSuiviDirectionMultiplier
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].inSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].outSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].time
+    value: 9.796694
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].value
+    value: 9.61781
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].inSlope
+    value: -0.32860008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].outSlope
+    value: -0.32860008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[1].outWeight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].time
+    value: 9.796694
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].value
+    value: 9.61781
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].inSlope
+    value: -0.32860008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].outSlope
+    value: -0.32860008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[2].outWeight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].time
+    value: 10.076248
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].value
+    value: -0.069358826
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].inSlope
+    value: -7.4272933
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].outSlope
+    value: -7.4272933
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].inWeight
+    value: 0.12486821
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormBase.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].time
+    value: -0.0068206787
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].value
+    value: -0.0050239563
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].tangentMode
+    value: 136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].time
+    value: -0.0014686063
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].value
+    value: 1.2357001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].time
+    value: 15.049451
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].value
+    value: 1.2387834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].time
+    value: 15.099133
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].value
+    value: -0.096200734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].tangentMode
+    value: 136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_Curve.Array.data[3].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormAiguille.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].time
+    value: -0.0017191656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].value
+    value: 0.00069754943
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].tangentMode
+    value: 136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].time
+    value: 0.009670954
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].value
+    value: 12.857542
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].time
+    value: 4.074275
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].value
+    value: 13.155172
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].inSlope
+    value: 0.04668987
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].outSlope
+    value: 0.04668987
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].time
+    value: 4.0831633
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].value
+    value: 0.007120371
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].tangentMode
+    value: 136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_Curve.Array.data[3].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formationFormRateau.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeLerpSmoothMultiplier
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: suiveursLimit
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: widthSeparation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heightSeparation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: totalTimerInSeconds
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: downgradeSpeed
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: upgradeAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: followers.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawns.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pointsFormations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: player
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cam
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: formation
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: skippedFrame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mustReload
+    value: 0
+    objectReference: {fileID: 0}

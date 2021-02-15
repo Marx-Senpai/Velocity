@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{fd55a2fc-dba5-4ee2-a340-bdb004f53276}">
+        <property name="name">
+            <value>FermeturePorte2</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{c1fd3e59-4d76-4e4c-bd7c-21bf5c2540e6}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{c1fd3e59-4d76-4e4c-bd7c-21bf5c2540e6}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

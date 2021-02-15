@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{b043cf27-0ffe-41ae-8a67-606f04d0c56f}">
+        <property name="name">
+            <value>Traqueur_tir</value>
+        </property>
+        <relationship name="folder">
+            <destination>{3aaa525c-2ae8-4375-b96b-cb51ae112eab}</destination>
+        </relationship>
+    </object>
+</objects>

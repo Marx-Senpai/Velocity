@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - sol
+  - Recoltable
+  - Obstacle
+  - piece
+  - SpawnSuiveur
+  - formationPoint
+  - ObstaclePlayer
+  - pointFormation
+  - Terrain
+  - MovingObstacle
+  - Fonceur
+  - Tracer
+  - Bullet
+  - Infanterie
+  - WidowMaker
+  - Laser
+  - DoorTrigger
+  - Water
+  - ShockWave
+  - SpawnManuel
+  - CamTrigger
+  - Trigger/In
+  - Trigger/Out
+  - EndTrigger
+  - StartTrigger
+  - CamFollow
+  - CamFollowShort
+  - BossMur
+  - BossHeart
+  - BossBlindage
+  - BossSpread
+  - BossStandard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Traversable
+  - OuterObstacle
+  - "SuiveurNonR\xE9colt\xE9"
+  - "SuiveurR\xE9colt\xE9"
+  - TirOut
+  - ObstaclePlayer
+  - ShockWave
+  - InnerObstacle
+  - Bullets
+  - Menaces
+  - OnlyCursor
+  - Shield
+  - Tir
+  - Dash
+  - PlayerDashing
+  - Laser
+  - MenacesMourant
+  - PlayerFull
+  - Boss
+  - WaterRipples
+  - Post-process
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

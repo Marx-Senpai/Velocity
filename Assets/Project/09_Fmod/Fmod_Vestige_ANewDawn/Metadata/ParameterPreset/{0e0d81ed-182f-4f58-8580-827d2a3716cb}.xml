@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{0e0d81ed-182f-4f58-8580-827d2a3716cb}">
+        <property name="name">
+            <value>Vitesse deplacement fonceur</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{98357e87-a3db-482d-9aea-97ae902e14c0}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{98357e87-a3db-482d-9aea-97ae902e14c0}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

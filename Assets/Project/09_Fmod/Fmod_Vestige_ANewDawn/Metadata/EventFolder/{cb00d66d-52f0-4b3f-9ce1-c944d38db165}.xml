@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{cb00d66d-52f0-4b3f-9ce1-c944d38db165}">
+        <property name="name">
+            <value>Consommation de suiveurs</value>
+        </property>
+        <relationship name="folder">
+            <destination>{19eee040-b2fc-4b04-91fe-93950a4733ae}</destination>
+        </relationship>
+    </object>
+</objects>

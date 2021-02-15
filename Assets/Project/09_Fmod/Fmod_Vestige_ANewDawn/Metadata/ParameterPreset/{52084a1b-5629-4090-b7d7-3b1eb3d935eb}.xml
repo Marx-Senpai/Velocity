@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{52084a1b-5629-4090-b7d7-3b1eb3d935eb}">
+        <property name="name">
+            <value>Tir</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{75202851-7877-409d-b7a0-368ef7a2be1a}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{75202851-7877-409d-b7a0-368ef7a2be1a}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 24e4b3dbdacf35e4885008606d90938a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aile_droite01
+    100002: aile_droite02
+    100004: aile_droite03
+    100006: aile_gauche01
+    100008: aile_gauche02
+    100010: aile_gauche03
+    100012: avatar_corps
+    100014: //RootNode
+    100016: cloth_droit01
+    100018: cloth_droit02
+    100020: cloth_droit03
+    100022: cloth_gauche01
+    100024: cloth_gauche02
+    100026: cloth_gauche03
+    100028: noeud_01
+    100030: noeud_02
+    400000: aile_droite01
+    400002: aile_droite02
+    400004: aile_droite03
+    400006: aile_gauche01
+    400008: aile_gauche02
+    400010: aile_gauche03
+    400012: avatar_corps
+    400014: //RootNode
+    400016: cloth_droit01
+    400018: cloth_droit02
+    400020: cloth_droit03
+    400022: cloth_gauche01
+    400024: cloth_gauche02
+    400026: cloth_gauche03
+    400028: noeud_01
+    400030: noeud_02
+    2100000: 02 - Default
+    2100002: No Name
+    2300000: aile_droite01
+    2300002: aile_droite02
+    2300004: aile_droite03
+    2300006: aile_gauche01
+    2300008: aile_gauche02
+    2300010: aile_gauche03
+    2300012: avatar_corps
+    2300014: cloth_droit01
+    2300016: cloth_droit02
+    2300018: cloth_droit03
+    2300020: cloth_gauche01
+    2300022: cloth_gauche02
+    2300024: cloth_gauche03
+    2300026: noeud_01
+    2300028: noeud_02
+    3300000: aile_droite01
+    3300002: aile_droite02
+    3300004: aile_droite03
+    3300006: aile_gauche01
+    3300008: aile_gauche02
+    3300010: aile_gauche03
+    3300012: avatar_corps
+    3300014: cloth_droit01
+    3300016: cloth_droit02
+    3300018: cloth_droit03
+    3300020: cloth_gauche01
+    3300022: cloth_gauche02
+    3300024: cloth_gauche03
+    3300026: noeud_01
+    3300028: noeud_02
+    4300000: avatar_corps
+    4300002: noeud_01
+    4300004: aile_droite01
+    4300006: aile_droite02
+    4300008: aile_droite03
+    4300010: aile_gauche01
+    4300012: aile_gauche02
+    4300014: aile_gauche03
+    4300016: noeud_02
+    4300018: cloth_droit03
+    4300020: cloth_droit02
+    4300022: cloth_droit01
+    4300024: cloth_gauche02
+    4300026: cloth_gauche03
+    4300028: cloth_gauche01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

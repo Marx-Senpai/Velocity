@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{5dcefe0a-cede-4ab6-af10-7fce211184f9}">
+        <property name="name">
+            <value>PertePV</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{562e4f13-4081-4ece-8685-78a228eb2dfe}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{562e4f13-4081-4ece-8685-78a228eb2dfe}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>2.2000000476837158</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{8c0fc77f-3793-4477-a73a-4a17e143539c}">
+        <property name="name">
+            <value>time mort</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e0aa2d40-7566-4285-8cbf-d65627916b9b}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{61cb48da-5c07-4efe-b8e0-95ef2087a5a9}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{61cb48da-5c07-4efe-b8e0-95ef2087a5a9}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>3</value>
+        </property>
+    </object>
+</objects>

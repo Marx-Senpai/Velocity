@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{bf357cce-4915-4eab-bce6-0a0cc1bad895}">
+        <property name="assetPath">
+            <value>collision_tir_avatar_froissement-003.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.44301587301587303</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cf2538eb-09d5-4e38-945b-424f8e0c1875}</destination>
+        </relationship>
+    </object>
+</objects>

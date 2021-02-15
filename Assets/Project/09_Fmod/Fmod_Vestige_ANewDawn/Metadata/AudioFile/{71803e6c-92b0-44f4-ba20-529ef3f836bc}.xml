@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{71803e6c-92b0-44f4-ba20-529ef3f836bc}">
+        <property name="assetPath">
+            <value>Vague_fin part2_2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>4.3695918367346938</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cf2538eb-09d5-4e38-945b-424f8e0c1875}</destination>
+        </relationship>
+    </object>
+</objects>

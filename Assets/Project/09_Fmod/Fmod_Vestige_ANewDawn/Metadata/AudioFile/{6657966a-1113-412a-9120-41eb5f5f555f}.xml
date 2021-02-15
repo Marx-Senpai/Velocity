@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{6657966a-1113-412a-9120-41eb5f5f555f}">
+        <property name="assetPath">
+            <value>reflect_04.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.63510204081632649</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cf2538eb-09d5-4e38-945b-424f8e0c1875}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,1888 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: waves apo
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 30476c8db341e1845ad2323450b808e2,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: arene
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: areneCenter.x
+    value: 355
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: areneCenter.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: areneCenter.z
+    value: 326
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: arenaLimites
+    value: 45
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnRadius
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.data[1]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.data[2]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.data[3]
+    value: 
+    objectReference: {fileID: 6895298079746576272, guid: 11d01ec0721af484d970953ad73cc8d2,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: ennemies.Array.data[4]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 7c4c40d82e9e1ab4a8bd13638b278ec4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawnTimerInterval
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawningPool.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawningPoolSize
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnCount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: checkPvCount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nbrWaveRegain
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnTimerLimit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomRadius
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathAloneIsDelayed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waveCount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnWave
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enterDoor
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: finishDoor
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: partiesMonolith.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: partiesMonolith.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: partiesMonolith.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: partiesMonolith.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ps_EndWave
+    value: 
+    objectReference: {fileID: 7022962642291233799, guid: 98b6fafabc87e9245a29946d8cf32527,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: ps_UnitWave
+    value: 
+    objectReference: {fileID: 2147866505413663773, guid: 027a41c46ae24804ca18e7e97f0bd8d4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: spawning_feedback
+    value: 
+    objectReference: {fileID: 8417589910671364642, guid: 05669252b975d36499c68ae661bb8098,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].waveTimerStart
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[0].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[1].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].ennemis.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].spawnTransforms.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[2].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[3].waveTimerStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[3].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[3].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[4].waveTimerStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[4].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[4].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[5].waveTimerStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[5].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[5].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].waveTimerStart
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[6].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[0].subWaves.Array.data[7].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].waveTimerStart
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.size
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[9]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[10]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[11]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[12]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].ennemis.Array.data[13]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.size
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[9]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[10]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[11]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[12]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[0].spawnTransforms.Array.data[13]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].waveTimerStart
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].ennemis.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].spawnTransforms.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[1].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].waveTimerStart
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 7c4c40d82e9e1ab4a8bd13638b278ec4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[2].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[3].waveTimerStart
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[3].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[3].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[4].waveTimerStart
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[4].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[4].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[5].waveTimerStart
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[5].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[5].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].waveTimerStart
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 7c4c40d82e9e1ab4a8bd13638b278ec4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[6].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].waveTimerStart
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[7].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].waveTimerStart
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 6895298079746576272, guid: 11d01ec0721af484d970953ad73cc8d2,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[1].subWaves.Array.data[8].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.size
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].waveTimerStart
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.size
+    value: 18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[9]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[10]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[11]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[12]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[13]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[14]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[15]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[16]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].ennemis.Array.data[17]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.size
+    value: 18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[9]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[10]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[11]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[12]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[13]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[14]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[15]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[16]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[0].spawnTransforms.Array.data[17]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].waveTimerStart
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.size
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[9]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[10]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].ennemis.Array.data[11]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.size
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[9]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[10]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[1].spawnTransforms.Array.data[11]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].waveTimerStart
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 7c4c40d82e9e1ab4a8bd13638b278ec4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 6895298079746576272, guid: 11d01ec0721af484d970953ad73cc8d2,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].ennemis.Array.data[9]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[2].spawnTransforms.Array.data[9]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[3].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[3].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[3].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[4].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[4].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[4].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[5].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[5].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[5].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[6].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[6].ennemis.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[6].spawnTransforms.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].waveTimerStart
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].ennemis.Array.data[9]
+    value: 
+    objectReference: {fileID: 6895298079746576272, guid: 11d01ec0721af484d970953ad73cc8d2,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[7].spawnTransforms.Array.data[9]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].waveTimerStart
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 7c4c40d82e9e1ab4a8bd13638b278ec4,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[8].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].waveTimerStart
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[9].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].waveTimerStart
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: 01ab092d909027646a2862f6b2a8236c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 3797965575884588323, guid: 745139321d21e3b42b4b129225f25544,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[10].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].waveTimerStart
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[0]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[1]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[2]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[3]
+    value: 
+    objectReference: {fileID: 8748802107541206861, guid: 54f1bd99b24ea6148a3d8da489c741ce,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[4]
+    value: 
+    objectReference: {fileID: 8329821767162753123, guid: ce60ea33155832746859682c228f095b,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[5]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[6]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[7]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].ennemis.Array.data[8]
+    value: 
+    objectReference: {fileID: 1143585551148494, guid: 65a76d570ebf3ca44a9d58139aa2581c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[5]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customWaves.Array.data[2].subWaves.Array.data[11].spawnTransforms.Array.data[8]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawn
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ennemyCount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ennemyMin
+    value: 0
+    objectReference: {fileID: 0}

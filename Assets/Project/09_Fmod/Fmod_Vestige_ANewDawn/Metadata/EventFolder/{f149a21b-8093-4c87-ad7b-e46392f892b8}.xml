@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{f149a21b-8093-4c87-ad7b-e46392f892b8}">
+        <property name="name">
+            <value>Stance Pouvoir</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9981632e-307a-474f-9b84-a20da551776b}</destination>
+        </relationship>
+    </object>
+</objects>
